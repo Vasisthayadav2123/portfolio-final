@@ -7,7 +7,7 @@ import { MobileNav } from './components/mobileNav';
 import { About } from './components/section/about';
 import { Home } from './components/section/home';
 import { Projects } from './components/section/projects';
-
+import { Contact } from './components/section/contact';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -26,6 +26,7 @@ function App() {
         <Home />
         <About />
         <Projects />
+        <Contact />
       </div>
     </>
   );
