@@ -90,11 +90,12 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                Full-stack e-commerce with java servlets of backend and
+                MySQL database, featuring product management and payment
+                processing.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {[, "Apache-Tomcat", "Servlets", "MySQL"].map(
                   (tech) => (
                     <span
                       key={tech}
