@@ -49,13 +49,13 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">AI Analytics Dashboard</h3>
+              <h3 className="text-xl font-bold mb-2">AI assistant</h3>
               <p className="text-gray-400 mb-4">
-                ML-powered data visualization platform with predictive analytics
-                and interactive reports.
+                gemini powered AI assistant for personalized task management and
+                productivity enhancement.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Python", "TensorFlow", "D3.js", "Flask"].map((tech, key) => (
+                {["React", "node.js", "Tailwindcss"].map((tech, key) => (
                   <span
                     key={key}
                     className="
@@ -130,7 +130,7 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <h3 className="text-xl font-bold mb-2">Real-Time Chat App (under development) </h3>
               <p className="text-gray-400 mb-4">
                 Scalable chat platform supporting real-time messaging, presence,
                 and group chat features.
