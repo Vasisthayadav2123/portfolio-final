@@ -95,7 +95,7 @@ export const Projects = () => {
 
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {[, "Apache-Tomcat", "Servlets", "MySQL"].map(
+                {[, "FLask", "Python", "Edge-TTS","gemini-API","Kotlin"].map(
                   (tech) => (
                     <span
                       key={tech}
