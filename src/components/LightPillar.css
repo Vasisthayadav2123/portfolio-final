@@ -1,0 +1,2 @@
+/* minimal fallback styles for the three.js canvas */
+.lightpillar, .lightpillar > canvas { position: absolute; inset: 0; pointer-events: none; }
