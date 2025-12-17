@@ -65,7 +65,7 @@ function App() {
 
       <CardNav
         className=' sticky top-0 bg-white/1 0 backdrop-blur-xs rounded-xl'
-        logo="public\Gemini_Generated_Image_g9gtr9g9gtr9g9gt (1).png"
+        logo="/Gemini_Generated_Image_g9gtr9g9gtr9g9gt (1).png"
         logoAlt="Company Logo"
         items={items}
         baseColor=""
