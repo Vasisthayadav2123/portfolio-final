@@ -14,13 +14,13 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <h3 className="text-xl font-bold mb-2"> Cloud Platform</h3>
+              <h3 className="text-xl font-bold mb-2"> Cloud-it</h3>
               <p className="text-gray-400 mb-4">
-                Scalable cloud infrastructure management with real-time
-                monitoring and automated scaling.
+                A storage management and file sharing platform that lets users effortlessly upload, organize, and share files. 
+                Built with the latest Next.js 15 and the Appwrite Node SDK, utilizing advanced features for seamless file management.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Node.js", "AWS", "Docker"].map((tech, key) => (
+                {["React", "Next.js", "Appwrite", "typescript"].map((tech, key) => (
                   <span
                     key={key}
                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -34,7 +34,7 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://cloud-it.vercel.app/sign-in"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -88,14 +88,14 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">KAI(Kinetic AI-Interface)</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with java servlets of backend and
-                MySQL database, featuring product management and payment
-                processing.
+                Engineered a cross-platform voice-controlled assistant in Python to seamlessly integrate and automate tasks between a Windows laptop and an Android mobile device. 
+                The system parses natural language commands to perform actions
+
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {[, "Apache-Tomcat", "Servlets", "MySQL"].map(
+                {[, "FLask", "Python", "Edge-TTS","gemini-API","Kotlin"].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -114,7 +114,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://github.com/Vasisthayadav2123/KAI"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
